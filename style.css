@@ -27,6 +27,7 @@ li {
 #logo {
   height: 92px;
   width: 272px;
+  padding-bottom: 20px;
 }
 
 #main {
@@ -37,12 +38,30 @@ li {
   text-align: center;
 }
 
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background: rgba(202, 202, 202, 0.36);
+  border-top: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.footerLeft {
+  float: left;
+  padding-top: 3
+}
+
+.footerRight {
+  float: right;
+  padding-right: 8px;
+}
+
 .searchInput {
-      width: 30%;
-      height: 42;
-      box-shadow: 1px 1px 5px #888888;
-      border: none;
-      padding-left: 10;
+  width: 30%;
+  height: 42;
+  box-shadow: 1px 1px 5px #888888;
+  border: none;
+  padding-left: 10;
 }
 
 .searchInput:focus, .searchInput:hover{
