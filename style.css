@@ -12,6 +12,15 @@ a:hover {
   text-decoration: underline;
 }
 
+/*#navbar {
+  display: inline-block;
+  padding: 8px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}*/
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -24,26 +33,33 @@ li {
   padding: 8px;
 }
 
+#main {
+  width: 100%;
+  top: 25%;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
 #logo {
   height: 92px;
   width: 272px;
   padding-bottom: 20px;
 }
 
-#main {
-  width: 100%;
-  top: 25%;
-  position: absolute;
-  display: block;
-  text-align: center;
-}
+/*.googleImage {
+  width:100%;
+  display:inline;
+  margin:auto;
+}*/
 
 .footer {
   width: 100%;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   background: rgba(202, 202, 202, 0.36);
   border-top: 1px solid rgba(0, 0, 0, 0.11);
+  left: 0;
 }
 
 .footerLeft {
@@ -53,7 +69,7 @@ li {
 
 .footerRight {
   float: right;
-  padding-right: 8px;
+  padding-top: 3
 }
 
 .searchInput {
